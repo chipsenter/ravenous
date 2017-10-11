@@ -7,12 +7,12 @@ const sortByOptions = {
     'Most Reviewed': 'review_count'
 }
 
-class sortByOptions extends React.Component {
+class SearchBar extends React.Component {
    renderSortByOptions() {
        return Object.keys(sortByOptions).map(sortByOption => {
            let sortByOptionValue = sortByOptions[sortByOption];
            return (
-               <li> key={sortByOptionValue}> {sortByOption}</li>
+               <li key={sortByOptionValue}> {sortByOption}</li>
            );
        });
    }
