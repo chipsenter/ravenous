@@ -4,9 +4,9 @@ html {
   font-size: 18px;
 }
 
-body {
-  background: #FFF;
-}
+/*body {
+  background: #cca353;
+}*/
 
 @media only screen and (max-width: 560px) {
   html {
